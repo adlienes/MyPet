@@ -32,14 +32,4 @@
         android:textSize="30sp"
         android:textStyle="bold|italic" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:fontFamily="sans-serif-smallcaps"
-        android:gravity="center"
-        android:text="Fatih Celebı"
-        android:textSize="30sp"
-        android:textStyle="bold|italic" />
 </LinearLayout>
