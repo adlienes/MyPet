@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cardview_light_background"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.enes.mypet.IlanPaylas_Ana"
+    tools:showIn="@layout/activity_ilan_paylas__ana">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/gonderi_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:reverseLayout="false"></android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>
